@@ -13,7 +13,7 @@ namespace MailVerify
             if (args.Count()!=1)
             {
                 Console.WriteLine("Usage: mailverify email");
-                //Environment.Exit(1);
+                Environment.Exit(1);
             }
             var f = new MailVerify.EmailVerifier(new WebTools.DnsMx()).Verify(args[0]);
             Console.WriteLine(f.ToString());
