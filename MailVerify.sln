@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailVerify.Core", "MailVerify.Core\MailVerify.Core.csproj", "{CEFC3A63-7154-4654-BF54-CCD80475B1EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailVerify", "MailVerify\MailVerify.csproj", "{50F9309F-4CA6-4445-80DE-567B935BB06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailVerify.Interfaces", "MailVerify.Interfaces\MailVerify.Interfaces.csproj", "{2126EECA-4E6C-463C-A024-F6AFC53B0EB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEFC3A63-7154-4654-BF54-CCD80475B1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFC3A63-7154-4654-BF54-CCD80475B1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFC3A63-7154-4654-BF54-CCD80475B1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFC3A63-7154-4654-BF54-CCD80475B1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F9309F-4CA6-4445-80DE-567B935BB06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F9309F-4CA6-4445-80DE-567B935BB06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F9309F-4CA6-4445-80DE-567B935BB06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F9309F-4CA6-4445-80DE-567B935BB06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2126EECA-4E6C-463C-A024-F6AFC53B0EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2126EECA-4E6C-463C-A024-F6AFC53B0EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2126EECA-4E6C-463C-A024-F6AFC53B0EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2126EECA-4E6C-463C-A024-F6AFC53B0EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
